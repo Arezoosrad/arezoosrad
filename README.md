@@ -1,125 +1,116 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=180&section=header&text=AREZOO&fontSize=52&fontColor=00F7FF&animation=fadeIn&fontAlignY=35&desc=PYTHON%20%2F%20DJANGO%20BACKEND%20DEVELOPER&descSize=18&descColor=8B949E&descAlignY=58" width="100%"/>
+<a href="https://github.com/Arezoosrad">
+  <img src="./assets/arezoo-banner.svg" width="100%" alt="Arezoo — Python Django Backend Developer" />
+</a>
 
-<br>
+<br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&duration=3500&pause=900&color=00F7FF&center=true&vCenter=true&width=750&lines=Python+Backend+Developer;Django+%7C+Django+REST+Framework;Hybrid+Modular+Architecture;REST+API+%7C+Clean+Code;Build+Systems+That+Scale." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=820&lines=Python+Backend+Developer;Django+%7C+Django+REST+Framework;Hybrid+Modular+Django+Architecture;Redis+%7C+Celery+%7C+Docker;Build+clean+systems.+Ship+reliable+APIs." alt="Typing animation" />
 
-<br><br>
+<br /><br />
 
 <a href="https://github.com/Arezoosrad">
-<img src="https://img.shields.io/badge/GitHub-Arezoosrad-0D1117?style=for-the-badge&logo=github&logoColor=00F7FF"/>
+  <img src="https://img.shields.io/badge/GitHub-Arezoosrad-0D1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://github.com/Arezoosrad?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-0D1117?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Repositories" />
 </a>
 
 </div>
 
 ---
 
-## `01` — ENGINEERING
+## `01 / IDENTITY`
 
 <div align="center">
 
-<table>
-<tr>
+### **AREZOO SEDIGHIRAD**
 
-<td align="center" width="33%">
+**Python / Django Backend Developer**
 
-### 🐍 BACKEND
+I build backend systems with a focus on **modularity, clear boundaries, reusable components, REST APIs and maintainable Django architecture**.
 
-**Python**
-**Django**
-**Django REST Framework**
+<br />
 
-</td>
-
-<td align="center" width="33%">
-
-### 🏗️ ARCHITECTURE
-
-**Hybrid Modular**
-**Separation of Concerns**
-**Maintainable Systems**
-
-</td>
-
-<td align="center" width="33%">
-
-### ⚙️ INFRASTRUCTURE
-
-**Linux**
-**Docker**
-**Git / GitHub**
-
-</td>
-
-</tr>
-</table>
+`PYTHON` · `DJANGO` · `DRF` · `REDIS` · `CELERY` · `DOCKER` · `LINUX`
 
 </div>
 
 ---
 
-## `02` — TECH STACK
+## `02 / TECH STACK`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,django,html,css,tailwind,git,github,linux,docker&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,django,html,css,tailwind,git,github,linux,docker,redis&perline=10" alt="Python Django HTML CSS Tailwind Git GitHub Linux Docker Redis" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/Celery-111111?style=for-the-badge&logo=celery&logoColor=A78BFA" alt="Celery" />
+<img src="https://img.shields.io/badge/Django%20REST-111111?style=for-the-badge&logo=django&logoColor=A78BFA" alt="Django REST Framework" />
+<img src="https://img.shields.io/badge/Hybrid%20Modular%20Django-111111?style=for-the-badge&logo=django&logoColor=A78BFA" alt="Hybrid Modular Django" />
 
 </div>
 
-<br>
+<br />
 
-```text
-PYTHON       ████████████████████
-DJANGO       ████████████████████
-DRF          ███████████████████
-HTML / CSS   █████████████████
-TAILWIND     ████████████████
-GIT          █████████████████
-GITHUB       █████████████████
-LINUX        ███████████████
-DOCKER       ███████████████
-```
+| Layer | Stack |
+|:---|:---|
+| **Language** | Python |
+| **Backend** | Django · Django REST Framework |
+| **Async / Queue** | Celery · Redis |
+| **Frontend** | HTML · CSS · Tailwind CSS |
+| **DevOps** | Linux · Docker |
+| **Version Control** | Git · GitHub |
+| **Architecture** | Hybrid Modular Django |
 
 ---
 
-## `03` — ARCHITECTURE
+## `03 / ARCHITECTURE`
 
 <div align="center">
 
 ```text
-                         ┌─────────────────────┐
-                         │       CLIENT        │
-                         │  Browser / Frontend │
-                         └──────────┬──────────┘
+                         ┌──────────────────────┐
+                         │       CLIENT         │
+                         │  Browser / Frontend  │
+                         └──────────┬───────────┘
                                     │
                                   HTTP
                                     │
                                     ▼
-                         ┌─────────────────────┐
-                         │         API         │
-                         │   Django REST API   │
-                         └──────────┬──────────┘
+                         ┌──────────────────────┐
+                         │       API LAYER      │
+                         │ Django REST Framework│
+                         └──────────┬───────────┘
                                     │
                                     ▼
-              ┌────────────────────────────────────────┐
-              │          HYBRID MODULAR DJANGO          │
-              │                                        │
-              │   ┌──────────┐     ┌──────────────┐   │
-              │   │  USERS   │     │   PRODUCTS   │   │
-              │   └──────────┘     └──────────────┘   │
-              │                                        │
-              │   ┌──────────┐     ┌──────────────┐   │
-              │   │  ORDERS  │     │   PAYMENTS   │   │
-              │   └──────────┘     └──────────────┘   │
-              │                                        │
-              └───────────────────┬────────────────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────────┐
-                         │      DATABASE       │
-                         └─────────────────────┘
+        ┌──────────────────────────────────────────────────────┐
+        │              HYBRID MODULAR DJANGO                   │
+        │                                                      │
+        │   ┌───────────┐   ┌───────────┐   ┌─────────────┐  │
+        │   │   USERS   │   │ PRODUCTS  │   │   ORDERS    │  │
+        │   └───────────┘   └───────────┘   └─────────────┘  │
+        │                                                      │
+        │   ┌───────────┐   ┌───────────┐   ┌─────────────┐  │
+        │   │ SERVICES  │   │   TASKS   │   │   SHARED    │  │
+        │   └───────────┘   └───────────┘   └─────────────┘  │
+        │                                                      │
+        └───────────────┬──────────────────┬──────────────────┘
+                        │                  │
+                        ▼                  ▼
+               ┌────────────────┐  ┌────────────────┐
+               │    DATABASE    │  │ REDIS / CELERY │
+               │   Persistence  │  │ Async / Queue  │
+               └────────────────┘  └────────────────┘
+                                    │
+                                    ▼
+                              ┌────────────┐
+                              │  DOCKER    │
+                              │  LINUX     │
+                              └────────────┘
 ```
 
 </div>
@@ -130,57 +121,120 @@ DOCKER       ███████████████
 
 ---
 
-## `04` — ENGINEERING PRINCIPLES
-
-```text
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│   UNDERSTAND  →  DESIGN  →  IMPLEMENT  →  TEST      │
-│                                                      │
-│   Business Logic                                     │
-│        ↓                                             │
-│   Architecture                                       │
-│        ↓                                             │
-│   Data Flow                                          │
-│        ↓                                             │
-│   API                                                │
-│        ↓                                             │
-│   Frontend                                           │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
-
-I focus on building software that is:
-
-**Clean · Modular · Understandable · Secure · Testable · Maintainable**
-
----
-
-## `05` — GITHUB ACTIVITY
+## `04 / ENGINEERING WORKFLOW`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Arezoosrad&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=C9D1D9"/>
+```text
+REQUIREMENTS
+     │
+     ▼
+USE CASE
+     │
+     ▼
+DOMAIN / ENTITY
+     │
+     ▼
+ERD / DATABASE
+     │
+     ▼
+DJANGO MODEL
+     │
+     ▼
+API / SERIALIZER
+     │
+     ▼
+SERVICE / BUSINESS LOGIC
+     │
+     ▼
+VIEW / ENDPOINT
+     │
+     ▼
+FRONTEND
+     │
+     ▼
+TEST → DOCKER → DEPLOY
+```
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arezoosrad&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=C9D1D9"/>
+</div>
 
-<br><br>
+I prefer understanding the system before implementing individual pieces.
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Arezoosrad&bg_color=0D1117&color=00F7FF&line=00F7FF&point=FFFFFF&area=true&hide_border=true"/>
+**Understand → Design → Implement → Test → Ship**
+
+---
+
+## `05 / WHAT I BUILD`
+
+<div align="center">
+
+| Backend | Architecture | Infrastructure |
+|:---:|:---:|:---:|
+| REST APIs | Hybrid Modular Django | Docker |
+| Business Logic | Separation of Concerns | Linux |
+| Authentication | Reusable Components | Git / GitHub |
+| Async Tasks | Domain Boundaries | Redis / Celery |
 
 </div>
 
 ---
 
-## `06` — CONTRIBUTION
+## `06 / GITHUB ACTIVITY`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Arezoosrad/Arezoosrad/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Arezoosrad&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=C9D1D9&ring_color=A78BFA" alt="GitHub statistics" />
 
-<br>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arezoosrad&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" alt="Top languages" />
 
-<sub>Every contribution is another iteration.</sub>
+<br /><br />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Arezoosrad&bg_color=0D1117&color=C9D1D9&line=A78BFA&point=FFFFFF&area=true&hide_border=true" alt="GitHub activity graph" />
+
+</div>
+
+---
+
+## `07 / CONTRIBUTION FLOW`
+
+<div align="center">
+
+<img src="./assets/contribution-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
+
+<br />
+
+<sub>Continuous learning · Continuous building · Continuous iteration</sub>
+
+</div>
+
+---
+
+## `08 / CURRENT FOCUS`
+
+<div align="center">
+
+```text
+PYTHON BACKEND
+      │
+      ├── DJANGO
+      ├── DJANGO REST FRAMEWORK
+      ├── HYBRID MODULAR ARCHITECTURE
+      ├── REDIS / CELERY
+      ├── DOCKER / LINUX
+      └── PRODUCTION-READY SYSTEM DESIGN
+```
+
+</div>
+
+---
+
+## `09 / CONNECT`
+
+<div align="center">
+
+<a href="https://github.com/Arezoosrad">
+  <img src="https://img.shields.io/badge/GitHub-Arezoosrad-0D1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+</a>
 
 </div>
 
@@ -190,8 +244,8 @@ I focus on building software that is:
 
 ### `BUILD CLEAN. THINK DEEP. SHIP BETTER.`
 
-<br>
+<br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer" />
 
 </div>
