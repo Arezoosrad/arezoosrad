@@ -1,10 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350">
-<rect width="1000" height="350" rx="22" fill="#050507"/>
-<text x="52" y="55" fill="#ededf0" font-family="Georgia,serif" font-size="28" letter-spacing="3">TECH / STACK</text>
-<text x="52" y="81" fill="#62626c" font-family="ui-monospace,monospace" font-size="9.5" letter-spacing="2.5">A PRACTICAL TOOLSET FOR BACKEND ENGINEERING</text><path d="M52 102H948" stroke="#202028"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
+<rect width="1000" height="360" rx="24" fill="#050507"/>
+<rect x="28" y="28" width="944" height="304" rx="18" fill="#09090d" stroke="#20202a"/>
+<rect x="28" y="28" width="944" height="3" rx="2" fill="#8b5cf6" opacity=".55"/>
 <g font-family="ui-monospace,monospace">
-<g transform="translate(52 128)"><rect width="430" height="78" rx="13" fill="#09090d" stroke="#202028"/><text x="22" y="28" fill="#686872" font-size="9" letter-spacing="2">01 / BACKEND</text><text x="22" y="58" fill="#e4e4e8" font-size="18" font-weight="700">PYTHON · DJANGO · DRF</text></g>
-<g transform="translate(518 128)"><rect width="430" height="78" rx="13" fill="#09090d" stroke="#202028"/><text x="22" y="28" fill="#686872" font-size="9" letter-spacing="2">02 / ASYNC</text><text x="22" y="58" fill="#e4e4e8" font-size="18" font-weight="700">REDIS · CELERY</text></g>
-<g transform="translate(52 226)"><rect width="430" height="78" rx="13" fill="#09090d" stroke="#202028"/><text x="22" y="28" fill="#686872" font-size="9" letter-spacing="2">03 / FRONTEND</text><text x="22" y="58" fill="#e4e4e8" font-size="18" font-weight="700">HTML · CSS · TAILWIND</text></g>
-<g transform="translate(518 226)"><rect width="430" height="78" rx="13" fill="#09090d" stroke="#202028"/><text x="22" y="28" fill="#686872" font-size="9" letter-spacing="2">04 / SYSTEMS</text><text x="22" y="58" fill="#e4e4e8" font-size="18" font-weight="700">LINUX · DOCKER · GIT · GITHUB</text></g>
-</g></svg>
+<text x="58" y="72" fill="#f0f0f3" font-family="Georgia,serif" font-size="28" letter-spacing="2">TECH / STACK</text>
+<text x="58" y="98" fill="#666672" font-size="9" letter-spacing="2.5">BACKEND · INFRASTRUCTURE · FRONTEND</text>
+<path d="M58 118H942" stroke="#22222b"/>
+<g transform="translate(58 140)">
+<rect width="270" height="68" rx="12" fill="#0c0c11" stroke="#24242d"/>
+<text x="18" y="26" fill="#777780" font-size="9" letter-spacing="2">BACKEND</text><text x="18" y="51" fill="#e6e6ea" font-size="15" font-weight="700">PYTHON · DJANGO · DRF</text>
+</g>
+<g transform="translate(365 140)">
+<rect width="270" height="68" rx="12" fill="#0c0c11" stroke="#24242d"/>
+<text x="18" y="26" fill="#777780" font-size="9" letter-spacing="2">ASYNC</text><text x="18" y="51" fill="#e6e6ea" font-size="15" font-weight="700">REDIS · CELERY</text>
+</g>
+<g transform="translate(672 140)">
+<rect width="270" height="68" rx="12" fill="#0c0c11" stroke="#24242d"/>
+<text x="18" y="26" fill="#777780" font-size="9" letter-spacing="2">SYSTEMS</text><text x="18" y="51" fill="#e6e6ea" font-size="15" font-weight="700">LINUX · DOCKER</text>
+</g>
+<g transform="translate(58 228)">
+<rect width="423" height="68" rx="12" fill="#0c0c11" stroke="#24242d"/>
+<text x="18" y="26" fill="#777780" font-size="9" letter-spacing="2">WEB</text><text x="18" y="51" fill="#e6e6ea" font-size="15" font-weight="700">HTML · CSS · TAILWIND</text>
+</g>
+<g transform="translate(498 228)">
+<rect width="444" height="68" rx="12" fill="#0c0c11" stroke="#24242d"/>
+<text x="18" y="26" fill="#777780" font-size="9" letter-spacing="2">WORKFLOW</text><text x="18" y="51" fill="#e6e6ea" font-size="15" font-weight="700">GIT · GITHUB · MODULAR DJANGO</text>
+</g>
+</g>
+</svg>
