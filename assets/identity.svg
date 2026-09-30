@@ -1,12 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
-<rect width="1000" height="300" rx="22" fill="#050507"/><rect x="38" y="38" width="924" height="224" rx="16" fill="#09090d" stroke="#202028"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310">
+<defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#8b5cf6" stop-opacity=".05"/><stop offset=".5" stop-color="#b794f4"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".05"/></linearGradient></defs>
+<rect width="1000" height="310" rx="24" fill="#050507"/>
+<rect x="28" y="28" width="944" height="254" rx="18" fill="#09090d" stroke="#20202a"/>
+<rect x="28" y="28" width="944" height="3" rx="2" fill="url(#line)"/>
 <g font-family="ui-monospace,monospace">
-<text x="76" y="80" fill="#777780" font-size="10" letter-spacing="3">PROFILE / 001</text>
-<text x="76" y="126" fill="#ededf0" font-family="Georgia,serif" font-size="34" font-weight="700" letter-spacing="2">AREZOO SEDIGHIRAD</text>
-<path d="M76 146H450" stroke="#25252d"/>
-<text x="76" y="181" fill="#b8b8c0" font-size="11" letter-spacing="1.5">ROLE</text><text x="175" y="181" fill="#96969f" font-size="11">PYTHON / DJANGO BACKEND DEVELOPER</text>
-<text x="76" y="215" fill="#b8b8c0" font-size="11" letter-spacing="1.5">FOCUS</text><text x="175" y="215" fill="#96969f" font-size="11">REST APIs · MODULAR ARCHITECTURE · CLEAN BACKENDS</text>
-<text x="76" y="249" fill="#b8b8c0" font-size="11" letter-spacing="1.5">PRINCIPLE</text><text x="175" y="249" fill="#96969f" font-size="11">UNDERSTAND THE SYSTEM BEFORE WRITING THE CODE</text>
+<text x="64" y="76" fill="#777780" font-size="10" letter-spacing="3">PROFILE / 001</text>
+<text x="64" y="124" fill="#f1f1f4" font-family="Georgia,serif" font-size="34" font-weight="700">AREZOO SEDIGHIRAD</text>
+<text x="64" y="158" fill="#a9a9b4" font-size="12" letter-spacing="2">PYTHON / DJANGO BACKEND DEVELOPER</text>
+<path d="M64 180H560" stroke="#24242d"/>
+<text x="64" y="213" fill="#777780" font-size="10" letter-spacing="2">FOCUS</text>
+<text x="150" y="213" fill="#c5c5cc" font-size="11">REST APIs · MODULAR ARCHITECTURE · CLEAN BACKENDS</text>
+<text x="64" y="244" fill="#777780" font-size="10" letter-spacing="2">MINDSET</text>
+<text x="150" y="244" fill="#c5c5cc" font-size="11">UNDERSTAND THE SYSTEM BEFORE WRITING THE CODE</text>
 </g>
-<g transform="translate(720 78)"><circle cx="75" cy="75" r="52" fill="none" stroke="#292932"/><circle cx="75" cy="75" r="28" fill="none" stroke="#8b5cf6" stroke-opacity=".35"/><circle cx="75" cy="75" r="4" fill="#8b5cf6"><animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(760 90)">
+<circle cx="75" cy="75" r="58" fill="none" stroke="#262631"/>
+<circle cx="75" cy="75" r="39" fill="none" stroke="#8b5cf6" stroke-opacity=".25"/>
+<circle cx="75" cy="75" r="7" fill="#b794f4">
+  <animate attributeName="r" values="5;10;5" dur="2s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="75" cy="75" r="70" fill="none" stroke="#8b5cf6" stroke-opacity=".1" stroke-dasharray="3 9">
+  <animateTransform attributeName="transform" type="rotate" from="0 75 75" to="360 75 75" dur="14s" repeatCount="indefinite"/>
+</circle>
+</g>
 </svg>
