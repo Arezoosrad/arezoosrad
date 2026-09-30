@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="96" viewBox="0 0 1000 96"><rect width="1000" height="96" rx="22" fill="#050507"/><path d="M146 39H430M570 39H854" stroke="#1d1d25"/><circle cx="500" cy="39" r="3" fill="#8b5cf6"><animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/></circle><text x="500" y="70" text-anchor="middle" fill="#777780" font-family="ui-monospace,monospace" font-size="10.5" letter-spacing="3.5">END OF SIGNAL // AREZOOSRAD</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110">
+<rect width="1000" height="110" rx="24" fill="#050507"/>
+<rect x="1" y="1" width="998" height="108" rx="23" fill="none" stroke="#20202a"/>
+<path d="M150 42H420M580 42H850" stroke="#24242d"/>
+<circle cx="500" cy="42" r="4" fill="#b794f4"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+<text x="500" y="76" text-anchor="middle" fill="#858590" font-family="ui-monospace,monospace" font-size="10.5" letter-spacing="3.5">END OF SIGNAL // AREZOOSRAD</text>
+<text x="500" y="94" text-anchor="middle" fill="#4f4f59" font-family="ui-monospace,monospace" font-size="8.5" letter-spacing="2">PYTHON · DJANGO · BUILD WITH INTENT</text>
+</svg>
