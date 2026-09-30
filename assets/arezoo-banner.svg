@@ -1,16 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="292" viewBox="0 0 1000 292">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
 <defs>
-<linearGradient id="shine" x1="-1" y1="0" x2="0" y2="0"><stop stop-color="#4b4b55"/><stop offset=".48" stop-color="#f4f4f5"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b3b44"/><animate attributeName="x1" values="-1;1" dur="9s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="9s" repeatCount="indefinite"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#8b5cf6" stop-opacity=".055"/><stop offset="1" stop-color="#050507" stop-opacity="0"/></radialGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#6d28d9"/><stop offset=".5" stop-color="#b794f4"/><stop offset="1" stop-color="#6d28d9"/>
+    <animate attributeName="x1" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1;0;1" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop stop-color="#8b5cf6" stop-opacity=".13"/><stop offset="1" stop-color="#050507" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="text" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#ffffff"/><stop offset=".5" stop-color="#d8d8df"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
 </defs>
-<rect width="1000" height="292" rx="22" fill="#050507"/>
-<rect x="1" y="1" width="998" height="290" rx="21" fill="none" stroke="#19191f"/>
-<ellipse cx="500" cy="124" rx="350" ry="115" fill="url(#halo)"/>
-<g fill="none" stroke="#25252d"><path d="M76 54H286M714 54H924M76 238H286M714 238H924"/></g>
-<circle cx="64" cy="54" r="2.5" fill="#8b5cf6"><animate attributeName="opacity" values=".2;.8;.2" dur="5s" repeatCount="indefinite"/></circle>
-<circle cx="936" cy="54" r="2.5" fill="#77777f"><animate attributeName="opacity" values=".8;.2;.8" dur="6s" repeatCount="indefinite"/></circle>
-<text x="500" y="153" text-anchor="middle" fill="url(#shine)" font-family="Georgia,serif" font-size="108" font-weight="700" letter-spacing="16">AREZOO</text>
-<text x="500" y="198" text-anchor="middle" fill="#a3a3ad" font-family="ui-monospace,monospace" font-size="14" letter-spacing="4">PYTHON · DJANGO · BACKEND ENGINEERING</text>
-<path d="M312 219H688" stroke="#34343d"/>
-<text x="500" y="251" text-anchor="middle" fill="#666670" font-family="ui-monospace,monospace" font-size="10.5" letter-spacing="3">BUILDING CLEAN SYSTEMS WITH DJANGO</text>
+<rect width="1200" height="330" rx="26" fill="#050507"/>
+<rect width="1200" height="7" rx="3" fill="url(#top)"/>
+<rect x="1" y="1" width="1198" height="328" rx="25" fill="none" stroke="#20202a"/>
+<ellipse cx="600" cy="160" rx="470" ry="145" fill="url(#glow)"/>
+<g fill="none" stroke="#20202a" opacity=".8">
+  <path d="M70 92H290M910 92H1130M70 250H290M910 250H1130"/>
+  <circle cx="70" cy="92" r="3"/><circle cx="1130" cy="250" r="3"/>
+</g>
+<circle cx="600" cy="87" r="3" fill="#b794f4">
+  <animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<text x="600" y="178" text-anchor="middle" fill="url(#text)" font-family="Georgia,serif" font-size="104" font-weight="700" letter-spacing="18">AREZOO</text>
+<text x="600" y="218" text-anchor="middle" fill="#9b9ba6" font-family="ui-monospace,monospace" font-size="14" letter-spacing="5">PYTHON · DJANGO · BACKEND ENGINEERING</text>
+<path d="M430 248H770" stroke="#2c2c36"/>
+<circle cx="430" cy="248" r="2" fill="#8b5cf6"><animate attributeName="cx" values="430;770;430" dur="6s" repeatCount="indefinite"/></circle>
+<text x="600" y="282" text-anchor="middle" fill="#62626d" font-family="ui-monospace,monospace" font-size="10" letter-spacing="3">CLEAN SYSTEMS / MODULAR THINKING / DJANGO</text>
 </svg>
